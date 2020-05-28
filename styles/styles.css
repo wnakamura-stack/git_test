@@ -1,14 +1,22 @@
 p{
-    color: purple;
-    opacity: 0.60;
+    color: black;
+    opacity: 0.99;
     font: normal 1em "Arial", Helvetica, sans-serif;
+    width: 600px;
+    border: 2px solid blue;
 }
 h1 {
     font: bold 2.5em "Arial", Helvetica, sans-serif;
+    color: purple;
 }
-ul{
+ul, li{
     font: normal 1em "Arial", Helvetica, sans-serif;
+    color: purple;
 }
 ul {
     list-style: circle ;
 }
+h2, h3, h4 {
+    color: red;
+    font: normal 1.5em "Arial", Helvetica, sans-serif;
+  }
