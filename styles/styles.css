@@ -1,15 +1,32 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+    background-color: purple;
+    padding: 0px 20px 20px 20px;
+    border: 4px solid gray;
+  }
+
+  img {
+    display:block;
+    margin: 0 auto;
+    max-width: 50%;
+    max-height: 50%;
+}
 p{
     color: yellow;
     opacity: 0.99;
     font: normal 1em "Arial", Helvetica, sans-serif;
-    width: 600px;
-    border: 2px solid blue;
+    width: 100%;
+    border: 0px solid blue;
     font-family: "Chelsea Market", cursive;
 }
 h1 {
+    margin: 0;
     font: bold 3.5em "Chelsea Market", cursive;
     color: gold;
     text-align: center;
+    padding: 20px 0;
+    text-shadow: 8px 8px 5px black; 
 }
 ul, li{
     font: normal 1em "Arial", Helvetica, sans-serif;
@@ -19,16 +36,14 @@ ul {
     list-style: circle ;
 }
 h2, h3, h4 {
-    color: rgb(165, 161, 161);
-    font: normal 1.5em "Arial", Helvetica, sans-serif;
+    color: #FFFFFF;
+    font: normal 1.5em "Chelsea Market", cursive;
   }
 html {
-    background-color: purple;
+    background-color: #484152;
 }
 
 h2:hover, h3:hover, h4:hover {
-    color: blue;
+    color: gray;
     font: bold 1.5em "Arial", Helvetica, sans-serif;
-body {
-    [padding: 100px 20px 20px 20px;]
 }
